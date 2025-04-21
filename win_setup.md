@@ -48,6 +48,19 @@ https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_386.zip
 https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_amd64.zip
 ```
 
+---
+
+# Install Google Cloud CLI
+- Win 8.1> & Win Svr 2012>
+```bash
+(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+
+& $env:Temp\GoogleCloudSDKInstaller.exe
+```
+- Launch installer
+
+# Tools
+python
 
 
 
