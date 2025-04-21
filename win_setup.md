@@ -40,6 +40,14 @@ https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5
 msiexec.exe /package PowerShell-7.5.0-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1 USE_MU=1 ENABLE_MU=1 ADD_PATH=1
 ```
 
+---
+
+# Install Terraform
+```bash
+https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_386.zip
+https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_amd64.zip
+```
+
 
 
 
