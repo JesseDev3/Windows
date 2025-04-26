@@ -52,6 +52,13 @@ https://nodejs.org/en/download
 
 ---
 
+# Install Ng
+'''bash
+npm install -g @angular/cli
+'''
+
+---
+
 # Install [Terraform](https://developer.hashicorp.com/terraform/install)
 ```bash
 https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_386.zip
