@@ -76,8 +76,17 @@ https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_amd64.z
 ```
 - Launch installer
 
+# Install WSL
+```bash
+wsl --install
+wsl.exe install --Ubuntu-24.04
+wsl.exe -d Ubuntu-24.04
+create (run) ros2/gazebo install script
+```
+
 # Tools
 python
+
 
 
 
