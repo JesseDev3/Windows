@@ -39,33 +39,31 @@ https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5
 ```bash
 msiexec.exe /package PowerShell-7.5.0-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1 USE_MU=1 ENABLE_MU=1 ADD_PATH=1
 ```
+
+# Tools
+```bash
+python
+```
+
 # Install [GIT]()
 ```bash
 ```
-
----
 
 # Install NVM
 ```bash
 https://nodejs.org/en/download
 ```
 
----
-
 # Install Ng
 '''bash
 npm install -g @angular/cli
 '''
-
----
 
 # Install [Terraform](https://developer.hashicorp.com/terraform/install)
 ```bash
 https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_386.zip
 https://releases.hashicorp.com/terraform/1.11.4/terraform_1.11.4_windows_amd64.zip
 ```
-
----
 
 # Install Google Cloud [CLI](https://cloud.google.com/sdk/docs/install#windows)
 - Win 8.1> & Win Svr 2012>
@@ -83,9 +81,6 @@ wsl.exe install --Ubuntu-24.04
 wsl.exe -d Ubuntu-24.04
 create (run) ros2/gazebo install script
 ```
-
-# Tools
-python
 
 
 
